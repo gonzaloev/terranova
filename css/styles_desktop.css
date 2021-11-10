@@ -5,15 +5,18 @@
 
 .home{
     height: 100vh;
+    position:relative;
 }
 
 .propiedades{
     height: 100vh;
+    position: relative;
     
 }
 
 .acerca-de-nosotros{
     height: 100vh;
+    position: relative;
 }
 
 .semi-circulo {
@@ -55,4 +58,8 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+.container-home-busqueda{
+    
 }
