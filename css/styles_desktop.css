@@ -9,6 +9,7 @@
 
 .propiedades{
     height: 100vh;
+    
 }
 
 .acerca-de-nosotros{
@@ -17,7 +18,7 @@
 
 .semi-circulo {
     width: 55vw;
-    height: 110vh;
+    height: 100vh;
     background-color: rgba(14, 65, 124, 0.664);
     border-top-left-radius: 620px;
     border-bottom-left-radius: 0px;
@@ -52,4 +53,6 @@
 
 .imagen-home-realstate{
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
