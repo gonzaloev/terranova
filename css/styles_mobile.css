@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:380px){
+
+    .imagen-home-bg img{
+        display: none;
+    }
+
+}
