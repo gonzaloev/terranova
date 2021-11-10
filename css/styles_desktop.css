@@ -17,7 +17,7 @@
 
 .semi-circulo {
     width: 55vw;
-    height: 111vh;
+    height: 110vh;
     background-color: rgba(14, 65, 124, 0.664);
     border-top-left-radius: 620px;
     border-bottom-left-radius: 0px;
@@ -46,5 +46,10 @@
 
 .imagen-home-bg{
     z-index: -1000;
+    width: 100%;
     position:relative;
+}
+
+.imagen-home-realstate{
+    width: 100%;
 }
