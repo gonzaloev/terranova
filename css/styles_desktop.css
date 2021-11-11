@@ -29,7 +29,7 @@
     border-bottom: 0;
     position: absolute;
     right: 0px;   
-    z-index: 1000;
+    z-index: -900;
 }
 
 .titulo-home{
@@ -50,15 +50,17 @@
 }
 
 .imagen-home-bg{
-    z-index: -1000;
+    z-index: -100;
     width: 100%;
     position:relative;
+    z-index: -1000;
 }
 
 .imagen-home-realstate{
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    z-index: -1000;
 }
 
 .container-home-busqueda{

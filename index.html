@@ -16,50 +16,77 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(14, 65, 124);">
-        <a class="navbar-brand" href="#">Terranova</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(14, 65, 124);">
+          <a class="navbar-brand" href="#">Terranova</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
       
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Propiedades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de Nosotros</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Propiedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
 
 
-      <section class="home">      
+      <section class="home" >
           
         <div class="semi-circulo">
               <h1 class="titulo-home">Terranova
                   <br>
                   <span class="subtitulo-home">Real State</span>
+                  
               </h1>
+              
           </div>
+          
           <div class="imagen-home-bg">
             <img src="./assets/img/homeCarousel/002.jpg" class="imagen-home-realstate">
+          
+            
         </div>  
-
-        <!-- <div class="container" style="background-color: rgb(14, 65, 124); position: absolute; ">
-            <div class="row mb-4" style="text-align: center;">
-              <div class="col" style="background-color: green;">1</div>
-              <div class="col" style="background-color: green;">2</div>
-              <div class="col" style="background-color: green;">3</div>
+        <div class="category-bar-home" style="background-color: rgb(14,65, 124); text-align: center; z-index: 1530; position:relative; top: -2.5vh;">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <select class="form-select" aria-label="tipo-operacion">
+                  <option selected disabled style="font-weight: bold;">Operacion</option>
+                  <option value="1">Alquiler</option>
+                  <option value="2">Venta</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-select" aria-label="tipo-propiedad">
+                  <option selected disabled style="font-weight: bold;">Propiedad</option>
+                  <option value="3">Departamento</option>
+                  <option value="4">Casa</option>
+                  <option value="5">Terreno</option>
+                </select>
+              </div>
+              <div class="col">
+                <select class="form-select" aria-label="tipo-ubicacion">
+                  <option selected disabled style="font-weight: bold;">Ubicacion</option>
+                  <option value="6">CABA</option>
+                  <option value="7">GBA</option>
+                </select>
+              </div>
             </div>
-        </div> -->
-       
-
+          </div>
+        </div>
       </section>
+
+
       <section class="propiedades">
         <h2>Nuestras Propiedades</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
