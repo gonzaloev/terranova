@@ -3,11 +3,10 @@
     padding: 0;
 }
 
-    @media(min-width:380px){
+    @media  (min-width:320px ) and (max-width:1200px){
 
-    .imagen-home-bg{
+    .imagen-home-realstate{
         width: 100%;
-        
     }
 
     .semi-circulo{
