@@ -26,13 +26,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Propiedades</a>
+                <a class="nav-link" href="#propiedades">Propiedades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de Nosotros</a>
+                <a class="nav-link" href="#acerca-de-nosotros">Acerca de Nosotros</a>
               </li>
             </ul>
           </div>
@@ -40,7 +40,7 @@
     </header>
 
 
-      <section class="home" >
+      <section scroll-page id="home" class="home" >
           
         <div class="semi-circulo">
               <h1 class="titulo-home">Terranova
@@ -60,14 +60,14 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <select class="form-select" aria-label="tipo-operacion">
+                <select class="form-select" aria-label="tipo-operacion" style="margin-top: 0.5vh;">
                   <option selected disabled style="font-weight: bold;">Operacion</option>
                   <option value="1">Alquiler</option>
                   <option value="2">Venta</option>
                 </select>
               </div>
               <div class="col">
-                <select class="form-select" aria-label="tipo-propiedad">
+                <select class="form-select" aria-label="tipo-propiedad"  style="margin-top: 0.5vh;">
                   <option selected disabled style="font-weight: bold;">Propiedad</option>
                   <option value="3">Departamento</option>
                   <option value="4">Casa</option>
@@ -75,11 +75,15 @@
                 </select>
               </div>
               <div class="col">
-                <select class="form-select" aria-label="tipo-ubicacion">
+                <select class="form-select" aria-label="tipo-ubicacion" style="margin-top: 0.5vh;">
                   <option selected disabled style="font-weight: bold;">Ubicacion</option>
                   <option value="6">CABA</option>
                   <option value="7">GBA</option>
                 </select>
+              </div>
+              <div class="col">
+                <button type="button" class="btn btn-primary">Filtrar</button>
+                <button type="button" class="btn btn-warning">Limpiar</button>
               </div>
             </div>
           </div>
@@ -87,7 +91,7 @@
       </section>
 
 
-      <section class="propiedades">
+      <section scroll-page id="propiedades" class="propiedades" >
         <h2>Nuestras Propiedades</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -308,7 +312,7 @@
 
       </section>
 
-      <section class="acerca-de-nosotros">
+      <section scroll-page id="acerca-de-nosotros" class="acerca-de-nosotros">
           <img src="./assets/img/imagenes/casa_lujo_modernamadera.jpg" alt="" srcset="" style="width:100%">
       </section>
 </body>
