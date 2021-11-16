@@ -3,15 +3,14 @@
     padding: 0;
 }
 
-@media(max-width:380px){
+    @media  (min-width:320px ) and (max-width:1200px){
 
-    .imagen-home-bg img{
-        display: none;
+    .imagen-home-realstate{
+        width: 100%;
     }
 
     .semi-circulo{
         text-align: center;
         
     }
-
 }
