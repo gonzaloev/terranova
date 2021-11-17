@@ -6,8 +6,9 @@
             "url": "assets\\img\\imagenes\\casa_lujo_modernamadera.jpg",
             "operacion": "Venta",
             "propiedad": "Casa",
-            "precio": 600000
-            
+            "precio": 600000,
+            "modal":"Ambientes : 5 ,\\n Metros : 50m² ,\\n Disponible para ver ,\\n Se entrega pintado "
+        
         },
         {
             "id": 2,
@@ -15,7 +16,8 @@
             "url": "assets\\img\\imagenes\\casa_lujo_blanca.jpg",
             "operacion": "Alquiler",
             "propiedad": "Casa",
-            "precio": 6000
+            "precio": 6000,
+            "modal":"Ambientes : 4 ,\\n Metros : 100m² ,\\n Disponible para ver ,\\n Se entrega pintado "
         },
         {
             "id": 3,
@@ -23,7 +25,8 @@
             "url": "assets\\img\\imagenes\\casa_vintage.jpg",
             "operacion": "Venta",
             "propiedad": "Casa",
-            "precio": 300000
+            "precio": 300000,
+            "modal":"Ambientes : 7 ,\\n Metros : 150m² ,\\n Disponible para ver ,\\n Se entrega como esta en imagenes "
         },
         {
             "id": 4,
@@ -31,7 +34,8 @@
             "url": "assets\\img\\imagenes\\casa_naranja_montania.jpg",
             "operacion": "Venta",
             "propiedad": "Casa",
-            "precio": 1200000
+            "precio": 1200000,
+            "modal":"Ambientes : 5 ,\\n Metros : 300m² ,\\n Acordar para visitar ,\\n Se entrega pintado "
         },
         {
             "id": 5,
@@ -39,7 +43,8 @@
             "url": "assets\\img\\imagenes\\dpto_bali.jpg",
             "operacion": "Venta",
             "propiedad": "Departamento",
-            "precio": 500000
+            "precio": 500000,
+            "modal":"Ambientes : 1 ,\\n Metros : 50m² ,\\n Acordar para visitar ,\\n Se entrega pintado "
         },
         {
             "id": 6,
@@ -47,7 +52,8 @@
             "url": "assets\\img\\imagenes\\dpto_barco.jpg",
             "operacion": "Alquiler",
             "propiedad": "Departamento",
-            "precio": 5000
+            "precio": 5000,
+            "modal":"Ambientes : 1 ,\\n Metros : 50m² ,\\n Acordar para visitar ,\\n Se entrega pintado "
         },
         {
             "id": 7,
@@ -55,7 +61,8 @@
             "url": "assets\\img\\imagenes\\dpto_naranja.jpg",
             "operacion": "Venta",
             "propiedad": "Departamento",
-            "precio": 500000
+            "precio": 500000,
+            "modal":"Ambientes : 2 ,\\n Metros : 70m² ,\\n Disponible para ver ,\\n Se entrega pintado "
         },
         {
             "id": 8,
@@ -63,7 +70,8 @@
             "url": "assets\\img\\imagenes\\dpto_sobre_rio.jpg",
             "operacion": "Venta",
             "propiedad": "Departamento",
-            "precio": 400000
+            "precio": 400000,
+            "modal":"Ambientes : 1 ,\\n Metros : 70m² ,\\n Disponible para ver ,\\n Se entrega pintado "
         },
         {
             "id": 9,
@@ -71,7 +79,8 @@
             "url": "assets\\img\\imagenes\\terreno_country.jpg",
             "operacion": "Venta",
             "propiedad": "Terreno",
-            "precio": 100000
+            "precio": 100000,
+            "modal":"Metros : 200m² ,\\n Disponible para ver "
         },
         {
             "id": 10,
@@ -79,7 +88,8 @@
             "url": "assets\\img\\imagenes\\terreno_desdeArribaVarios.jpg",
             "operacion": "Venta",
             "propiedad": "Terreno",
-            "precio": 50000
+            "precio": 50000,
+            "modal":"Metros : 500m² ,\\n Disponible para ver "
         },
         {
             "id": 11,
@@ -87,7 +97,8 @@
             "url": "assets\\img\\imagenes\\terreno_mas_caro.jpg",
             "operacion": "Venta",
             "propiedad": "Terreno",
-            "precio": 250000000
+            "precio": 250000000,
+            "modal":"Metros : 200m² ,\\n Disponible para ver "
         },
         {
             "id": 12,
@@ -95,7 +106,8 @@
             "url": "assets\\img\\imagenes\\terreno_sobrelago.jpg",
             "operacion": "Venta",
             "propiedad": "Terreno",
-            "precio": 200000
+            "precio": 200000,
+            "modal":"Metros : 200m² ,\\n Disponible para ver "
         }
     ]
 }
