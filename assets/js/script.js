@@ -12,3 +12,14 @@ operacion => tipo de operacion
 propiedad => tipo de propiedad
 precio => precio equisde
 */
+
+/*
+$("#hide").click(function(){
+$("p").hide();
+});
+
+$("#show").click(function(){
+$("p").show();
+});
+
+*/
