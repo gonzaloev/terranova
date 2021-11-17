@@ -28,7 +28,13 @@ $(function(){
                     nuevoProducto.find(".ubicacion").text(propiedades.ubicacion);
                     nuevoProducto.find(".precio").text(propiedades.precio);
 
-
+                    /*
+                    if(item carrousel > 4 cartas adentro || no hay item en carrousel){
+                        Crear item en carrousel ==>>iteramos en este nuevo item hasta q se llene
+                    }
+                    crear carta con los valores de arriba con el boton de modal y el ID
+                    la sumamos a el item.
+                    */
                     $("#ProductosContenedor").append(nuevoProducto);
                 }
             },
@@ -63,8 +69,14 @@ precio => precio equisde
 
 /*
 $("#hide").click(function(){
-$("p").hide();
+$("carta x").hide();
 });
+
+foreach(carta in loqsea){
+    if(carta.ubicacion == caba){
+        this.hide();
+    }
+}
 
 $("#show").click(function(){
 $("p").show();
