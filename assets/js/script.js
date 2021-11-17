@@ -1,6 +1,6 @@
 $(function(){
 
-    let productoBase = $(".producto .card");
+    let productoBase = $(".plantilla .card");
 
     function buscar_productos() {
         console.log("BUSCANDO PRODUCTOS");
@@ -23,7 +23,13 @@ $(function(){
                     nuevoProducto.find(".propiedad").text(producto.propiedad);
                     nuevoProducto.find(".ubicacion").text(producto.ubicacion);
                     nuevoProducto.find(".precio").text(producto.precio);
+                    nuevoProducto.find(".mdl-propiedad").text(producto.modal);
+                    nuevoProducto.find("#id-propiedad").text(producto.id);
+                    nuevoProducto.find(".btn-modal").attr("data-target", "#myModal" + producto.id);
+                    nuevoProducto.find(".mdl-id").attr("id", "myModal" + producto.id);
                     
+                    
+
                     $("#ProductosContenedor").append(nuevoProducto);
                 }
             },
