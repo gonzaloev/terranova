@@ -61,8 +61,14 @@ precio => precio equisde
 
 /*
 $("#hide").click(function(){
-$("p").hide();
+$("carta x").hide();
 });
+
+foreach(carta in loqsea){
+    if(carta.ubicacion == caba){
+        this.hide();
+    }
+}
 
 $("#show").click(function(){
 $("p").show();
