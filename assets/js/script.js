@@ -21,6 +21,14 @@ $(function(){
                     nuevoProducto.find(".edad").text(producto.age);
                     nuevoProducto.find(".id").text(producto.id);
 
+                    nuevoProducto.find(".img-propiedad").text(propiedades.url);
+                    nuevoProducto.find(".nombre").text(propiedades.nombre);
+                    nuevoProducto.find(".operacion").text(propiedades.operacion);
+                    nuevoProducto.find(".propiedad").text(propiedades.propiedad);
+                    nuevoProducto.find(".ubicacion").text(propiedades.ubicacion);
+                    nuevoProducto.find(".precio").text(propiedades.precio);
+
+
                     $("#ProductosContenedor").append(nuevoProducto);
                 }
             },
