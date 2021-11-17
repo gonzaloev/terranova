@@ -27,11 +27,75 @@
         },
         {
             "id": 4,
-            "nombre": "Carlos",
-            "url": "assets\\img\\imagenes\\casa_lujo_modernamadera.jpg",
-            "operacion": "Alquiler",
+            "nombre": "Casa naranja montaña",
+            "url": "assets\\img\\imagenes\\casa_naranja_montania.jpg",
+            "operacion": "Venta",
             "propiedad": "Casa",
-            "precio": 600000
+            "precio": 1200000
+        },
+        {
+            "id": 5,
+            "nombre": "Departamento en BALI",
+            "url": "assets\\img\\imagenes\\dpto_bali.jpg",
+            "operacion": "Venta",
+            "propiedad": "Departamento",
+            "precio": 500000
+        },
+        {
+            "id": 6,
+            "nombre": "Departamento en el Puerto",
+            "url": "assets\\img\\imagenes\\dpto_barco.jpg",
+            "operacion": "Alquiler",
+            "propiedad": "Departamento",
+            "precio": 5000
+        },
+        {
+            "id": 7,
+            "nombre": "Departamento naranja",
+            "url": "assets\\img\\imagenes\\dpto_naranja.jpg",
+            "operacion": "Venta",
+            "propiedad": "Departamento",
+            "precio": 500000
+        },
+        {
+            "id": 8,
+            "nombre": "Departamento sobre el rio",
+            "url": "assets\\img\\imagenes\\dpto_sobre_rio.jpg",
+            "operacion": "Venta",
+            "propiedad": "Departamento",
+            "precio": 400000
+        },
+        {
+            "id": 9,
+            "nombre": "Lotes en country",
+            "url": "assets\\img\\imagenes\\terreno_country.jpg",
+            "operacion": "Venta",
+            "propiedad": "Terreno",
+            "precio": 100000
+        },
+        {
+            "id": 10,
+            "nombre": "Terrenos Expansion",
+            "url": "assets\\img\\imagenes\\terreno_desdeArribaVarios.jpg",
+            "operacion": "Venta",
+            "propiedad": "Terreno",
+            "precio": 50000
+        },
+        {
+            "id": 11,
+            "nombre": "Lote Lujoso",
+            "url": "assets\\img\\imagenes\\terreno_mas_caro.jpg",
+            "operacion": "Venta",
+            "propiedad": "Terreno",
+            "precio": 250000000
+        },
+        {
+            "id": 12,
+            "nombre": "Terreno Country Lago",
+            "url": "assets\\img\\imagenes\\terreno_sobrelago.jpg",
+            "operacion": "Venta",
+            "propiedad": "Terreno",
+            "precio": 200000
         }
     ]
 }
