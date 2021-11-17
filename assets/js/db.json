@@ -1,5 +1,5 @@
 {
-    "users": [
+    "propiedades": [
         {
             "id": 1,
             "nombre": "Casa de Madera de lujo",
@@ -18,15 +18,15 @@
             "precio": 6000
         },
         {
-            "id": 1,
-            "nombre": "Carlos",
+            "id": 3,
+            "nombre": "Casa Vintage",
             "url": "assets\\img\\imagenes\\casa_vintage.jpg",
-            "operacion": "Compra",
+            "operacion": "Venta",
             "propiedad": "Casa",
             "precio": 300000
         },
         {
-            "id": 1,
+            "id": 4,
             "nombre": "Carlos",
             "url": "assets\\img\\imagenes\\casa_lujo_modernamadera.jpg",
             "operacion": "Alquiler",
