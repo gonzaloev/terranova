@@ -34,6 +34,17 @@ $(function(){
     buscar_productos();
 })
 /* 
+
+"col producto"
+    "img-propiedad"
+        "nombre"
+            "operacion"
+                "propiedad"
+                    "ubicacion"
+                        "precio"
+
+
+
 objeto propiedad
 img-propiedad => url de la foto 
 nombre => nombre de la propiedad 
