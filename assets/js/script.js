@@ -1,6 +1,6 @@
 $(function(){
 
-    let productoBase = $(".plantilla .producto");
+    let productoBase = $(".producto .card");
 
     function buscar_productos() {
         console.log("BUSCANDO PRODUCTOS");
@@ -17,18 +17,13 @@ $(function(){
                 for (producto of data) {
                     let nuevoProducto = productoBase.clone();
 
-                    nuevoProducto.find(".nombre").text(producto.name);
-                    nuevoProducto.find(".edad").text(producto.age);
-                    nuevoProducto.find(".id").text(producto.id);
-
-                    nuevoProducto.find(".img-propiedad").text(propiedades.url);
-                    nuevoProducto.find(".nombre").text(propiedades.nombre);
-                    nuevoProducto.find(".operacion").text(propiedades.operacion);
-                    nuevoProducto.find(".propiedad").text(propiedades.propiedad);
-                    nuevoProducto.find(".ubicacion").text(propiedades.ubicacion);
-                    nuevoProducto.find(".precio").text(propiedades.precio);
-
-
+                    nuevoProducto.find(".img-propiedad").attr("src", producto.url);
+                    nuevoProducto.find(".nombre").text(producto.nombre);
+                    nuevoProducto.find(".operacion").text(producto.operacion);
+                    nuevoProducto.find(".propiedad").text(producto.propiedad);
+                    nuevoProducto.find(".ubicacion").text(producto.ubicacion);
+                    nuevoProducto.find(".precio").text(producto.precio);
+                    
                     $("#ProductosContenedor").append(nuevoProducto);
                 }
             },
@@ -41,6 +36,9 @@ $(function(){
 
     buscar_productos();
 })
+
+
+
 /* 
 
 "col producto"
