@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "nombre": "Casa de Madera de lujo",
+            "url": "assets\\img\\imagenes\\casa_lujo_modernamadera.jpg",
+            "operacion": "Venta",
+            "propiedad": "Casa",
+            "precio": 600000
+            
+        },
+        {
+            "id": 2,
+            "nombre": "Casa de lujo Blanca",
+            "url": "assets\\img\\imagenes\\casa_lujo_blanca.jpg",
+            "operacion": "Alquiler",
+            "propiedad": "Casa",
+            "precio": 6000
+        },
+        {
+            "id": 1,
+            "nombre": "Carlos",
+            "url": "assets\\img\\imagenes\\casa_vintage.jpg",
+            "operacion": "Compra",
+            "propiedad": "Casa",
+            "precio": 300000
+        },
+        {
+            "id": 1,
+            "nombre": "Carlos",
+            "url": "assets\\img\\imagenes\\casa_lujo_modernamadera.jpg",
+            "operacion": "Alquiler",
+            "propiedad": "Casa",
+            "precio": 600000
+        }
+    ]
+}
+
+
