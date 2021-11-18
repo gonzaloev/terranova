@@ -82,7 +82,7 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="12"></li>
           </ol>
           <div class="carousel-inner" id="ProductosContenedor" >
-            <div class="carousel-item active" style="background-color: rgba(14, 65, 124,.4);">
+            <div class="carousel-item active" style="background-color: rgba(14, 65, 124,.6);">
               <img src="./assets/img/carousel.png " class="d-block card-img-top" alt="..." style="width:60%; margin:auto; " >
               <div class="carousel-caption d-none d-md-block">
                 <h5><span class="nombre"></span></h5>
@@ -92,7 +92,7 @@
               </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
             <span class="sr-only">Anterior</span>
           </a>
           <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
@@ -103,18 +103,20 @@
         </section>
         <!-- Pantilla para carrousel--> 
         <div class="plantilla" >
-          <div class="carousel-item card" style="background-color: rgba(14, 65, 124,.7);" >
+          <div class="carousel-item card" style="background-color: rgba(14, 65, 124,.6);" >
             <img src="..." class="d-block img-propiedad card-img-top" alt="..." style="width:80%; margin:auto;">
             <div class="carousel-caption d-none d-md-block">
-              <h5><span class="nombre"></span></h5>
-              <p>
-                <ul>
-                  <li>Tipo de operacion: <span class="operacion"></span></li>
-                  <li>Tipo de propiedad: <span class="propiedad"></span></li>
-                  <li>Ubicacion: <span class="ubicacion"></span></li>
-                  <li>Precio: <span class="precio"></span></li>
-                  <li><button type="button" class="btn btn-info btn-lg btn-modal" data-toggle="modal" data-target="#id-propiedad">Mas Info</button></li>
-                </ul>
+              <div class="box-bg" style="background-color: rgba(14, 65, 124,.85); width: 20%; margin: auto; border-radius: 5px;">
+                <h5 ><span class="nombre"></span></h5>
+                <p>
+                  <ul style="margin: auto;">
+                    <li>Tipo de operacion: <span class="operacion"></span></li>
+                    <li>Tipo de propiedad: <span class="propiedad"></span></li>
+                    <li>Ubicacion: <span class="ubicacion"></span></li>
+                    <li>Precio: <span class="precio"></span></li>
+                    <li><button type="button" class="btn btn-info btn-lg btn-modal" data-toggle="modal" data-target="#id-propiedad">Mas Info</button></li>
+                  </ul>
+              </div>
               </p>
             </div>
             <!-- Modal -->
