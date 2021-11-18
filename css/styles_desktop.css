@@ -99,3 +99,7 @@
 #seccionpropiedades{
     margin-top: 10vh;
 }
+
+.carousel-caption{
+    background-color: rgba(14, 65, 124,.7);
+}
