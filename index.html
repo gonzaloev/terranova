@@ -11,10 +11,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="./css/infinite-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <link rel="stylesheet" href="./css/boostrap_main.css">
     <link rel="stylesheet" href="./css/styles_mobile.css">
     <link rel="stylesheet" href="./css/styles_desktop.css" media="(min-width:1000px)">
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/carousel.js"></script>
 
 </head>
 <body>
@@ -31,7 +34,7 @@
                 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#seccionpropiedades">Propiedades</a>
+                <a class="nav-link" href="#props">Propiedades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#nosotros">Acerca de Nosotros</a>
@@ -57,7 +60,7 @@
             <img src="./assets/img/homeCarousel/002.jpg" class="imagen-home-realstate">
           
             
-        </div>  
+       <!--  </div>  
         <div class="category-bar-home" style="background-color: rgb(14,65, 124); text-align: center; z-index: 950; position:relative; top: -2.5vh;">
           <div class="container">
             <div class="row">
@@ -89,7 +92,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
 
 
@@ -97,9 +100,9 @@
         <!-- <section scroll-page id="ProductosContenedor" class="productos" ></section> -->
 
         <!-- <section id="ProductosContenedor" class="productos"> -->
-        <div class="nosotros-subti"><h2>Nuestras Propiedades</h2> </div>
+        <div id="props" class="nosotros-subti" style="margin-top:5vh;"><h2>Nuestras Propiedades</h2> </div>
         <!-- <h2 class="">Nuestras Propiedades</h2> -->
-        <section id="seccionpropiedades" class="propiedades">
+        <section id="seccionpropiedades" class="propiedades" >
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -117,12 +120,12 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="12"></li>
           </ol>
           <div class="carousel-inner" id="ProductosContenedor">
-            <div class="carousel-item active">
-              <img src="./assets/img/homeCarousel/001.jpg" class="d-block w-100 card-img-top" alt="...">
+            <div class="carousel-item active" style="background-color: rgba(14, 65, 124,.7);">
+              <img src="./assets/img/carousel.png " class="d-block card-img-top" alt="..." style="width:60%; margin:auto; " >
               <div class="carousel-caption d-none d-md-block">
                 <h5><span class="nombre"></span></h5>
-                <p>
-                  Nuestras Propiedades
+                <p style="font-size: 50px; font-weight: 500;">
+                   Nuestras Propiedades 
                 </p>
               </div>
           </div>
@@ -137,9 +140,9 @@
         </div>
         </section>
         <!-- Pantilla para carrousel--> 
-        <div class="plantilla">
-          <div class="carousel-item card">
-            <img src="..." class="d-block w-100 img-propiedad card-img-top" alt="...">
+        <div class="plantilla" >
+          <div class="carousel-item card" style="background-color: rgba(14, 65, 124,.7);" >
+            <img src="..." class="d-block img-propiedad card-img-top" alt="..." style="width:80%; margin:auto;">
             <div class="carousel-caption d-none d-md-block">
               <h5><span class="nombre"></span></h5>
               <p>
@@ -181,36 +184,37 @@
         <!-- </section> -->
       </section>
      
-      <hr>
+      
 
       <section class="acerca-de-nosotros">
         
-          <div class="nosotros-subti" id="nosotros">Nosotros</div>
-          <div class="container">
+          <div class="nosotros-subti" id="nosotros"><h2>Nosotros</h2></div>
+          
+          <div class="container" style="margin-top:10vh; margin-bottom: 10vh;">
             <div class="row">
               <div class="col-md-6">
                 <div class="nosotros-datos">
   
-                  <p class="nosotros-txt">Donde Estamos?</p>
-                  <p class="nosotros-txt">Transporte : <b class="nosotros-impor">42,55,2,15,65,25</b>.</p>
+                  <p class="nosotros-txt">¿Dónde encontrarnos?</p>
+                  <p class="nosotros-txt">Transporte: <b class="nosotros-impor">42,55,2,15,65,25</b>.</p>
                   <p class="nosotros-txt">Subtes: <b class="nosotros-impor">C,D</b>.</p>
                   
                   <p class="nosotros-txt">Seguinos en Nuestras Redes:</p>
     
                   <ul class="nosotros-links">
-                    <li> <a href="https://www.facebook.com/SportsCenterESPN.argentina/" _target="_blank"> <img src="./assets/img/Nosotros/facebook.png"></a>  </li>
-                    <li> <a href="https://www.instagram.com/scespn/?fbclid=IwAR0CfR9x6Dls6sfJ1cH1sellQPVa14WbST-scMHOI2hYPeYv5QNphQ4ufkE" _target="_blank"> <img src="./assets/img/Nosotros/instagram .png"></a> </li>
-                    <li> <a href="https://twitter.com/sc_espn?fbclid=IwAR1gK-5nf_BbQ_kgMo4pGMcUPNErxVi-Jr5dBeZdfaktf6Sb4Y2ecNeyPls" _target="_blank"> <img src="./assets/img/Nosotros/twitter.png"> </a> </li>
+                    <li> <a href="https://www.facebook.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/facebook.png"></a>  </li>
+                    <li> <a href="https://www.instagram.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/instagram .png"></a> </li>
+                    <li> <a href="https://twitter.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/twitter.png"> </a> </li>
                   </ul>
     
-                  <p class="nosotros-txt">Contacto: <a href="tel:0800808"> <b class="nosotros-impor">0800-808</b></a> </p>
+                  <p class="nosotros-txt">Contacto: <a href="tel:0800808"> <b class="nosotros-impor">4711-2233</b></a> </p>
     
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="nosotros-mapa">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6060735154524!2d-58.44521018423783!3d-34.56352806288073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c8f8074bfb%3A0xf5f91738c1779e13!2sAv.%20Luis%20Mar%C3%ADa%20Campos%201426%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636951770649!5m2!1ses!2sar" 
-                    class="mapa" width="370" height="260" style="border:0; border-radius:5px; " allowfullscreen="" loading="lazy">
+                    class="mapa" width="250" height="290" style="border:0; border-radius:5px; " allowfullscreen="" loading="lazy">
                   </iframe>
                 </div>
   
@@ -218,34 +222,22 @@
             </div>
             </div>
 
-           
-          <!-- <div class="nosotros-grl">
-             
-              <div class="nosotros-datos">
-  
-                <p class="nosotros-txt">Donde Estamos?</p>
-                <p class="nosotros-txt">Transporte : <b class="nosotros-impor">42,55,2,15,65,25</b>.</p>
-                <p class="nosotros-txt">Subtes: <b class="nosotros-impor">C,D</b>.</p>
-                
-                <p class="nosotros-txt">Seguinos en Nuestras Redes:</p>
-  
-                <ul class="nosotros-links">
-                  <li> <a href="https://www.facebook.com/SportsCenterESPN.argentina/" _target="_blank"> <img src="./assets/img/Nosotros/facebook.png"></a>  </li>
-                  <li> <a href="https://www.instagram.com/scespn/?fbclid=IwAR0CfR9x6Dls6sfJ1cH1sellQPVa14WbST-scMHOI2hYPeYv5QNphQ4ufkE" _target="_blank"> <img src="./assets/img/Nosotros/instagram .png"></a> </li>
-                  <li> <a href="https://twitter.com/sc_espn?fbclid=IwAR1gK-5nf_BbQ_kgMo4pGMcUPNErxVi-Jr5dBeZdfaktf6Sb4Y2ecNeyPls" _target="_blank"> <img src="./assets/img/Nosotros/twitter.png"> </a> </li>
-                </ul>
-  
-                <p class="nosotros-txt">Contacto: <a href="tel:0800808"> <b class="nosotros-impor">0800-808</b></a> </p>
-  
-              </div>
-  
-              <div class="nosotros-mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6060735154524!2d-58.44521018423783!3d-34.56352806288073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c8f8074bfb%3A0xf5f91738c1779e13!2sAv.%20Luis%20Mar%C3%ADa%20Campos%201426%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636951770649!5m2!1ses!2sar" 
-                  width="600" height="400" style="border:0; border-radius:5px; " allowfullscreen="" loading="lazy">
-                </iframe>
-              </div>
 
-            </div> -->
+            
+
+           
+            <div class="container">
+              <section class="customer-logos slider">
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+              </section>
+            </div>
           
       </section>
 

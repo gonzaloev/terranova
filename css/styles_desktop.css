@@ -9,7 +9,7 @@
 }
 
 .propiedades{
-    height: 70vh;
+    height: 100vh;
     position: relative;
     /* margin: 20px; */
     
@@ -66,7 +66,7 @@
 }
 
 .acerca-de-nosotros{
-    height: 70vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -76,3 +76,26 @@
     width: 500px;
 }
 
+.nosotros-datos{
+    /* width: 30vw; */
+    height:50vh;
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius:5px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+
+.nosotros-txt{
+    font-size:30px;
+    font-weight:300;
+    line-height:30px;
+    text-align:center;
+    color:black;
+    text-decoration: none;
+    margin-top: 30px; 
+}
+
+#seccionpropiedades{
+    margin-top: 10vh;
+}
